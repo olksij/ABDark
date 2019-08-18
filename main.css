@@ -1,0 +1,421 @@
+#welcome_window_body{ background:#05050A; padding-right:5px;}
+
+#top_bar_app, #editor_resizer, #explorer_app, #content_app, #body{
+    background:#0A0A0F !important;
+}
+
+.g_status_bar, .g_tabs_bar{
+    background: #0C0C12 !important;
+}
+
+.background_window{
+    background: #35353A20
+}
+
+.section-2{
+    transition: 0.3s !important;
+    background: #05050A !important;
+    border: 2px solid var(--primaryColor);
+    overflow:auto !important;
+    border-radius:8px !important;
+    margin:15px 0px !important;
+    transform: translateY(0px);  
+    padding:15px !important;
+    height: 50px;
+    overflow-y:hidden !important;
+}
+
+.language_div.active{
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 10px #000005FF;
+    border-color: #0A0A0E;
+}
+
+.language_div:hover{
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;
+    transform: translateY(-1px);
+}
+
+.language_div{
+    transition: 0.3s;
+    background:#05050A;
+    border: 2px solid var(--primaryColor);
+    transform: translateY(0px);
+}
+
+.section-2:hover{
+    transform: translateY(-1px);
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;
+}
+
+.section-2 p {
+    margin-top:10px !important;
+    margin-bottom:0px !important;
+}
+
+#recent_projects{
+    padding:20px;
+}
+
+.dropbtn:hover {
+    background: #15151A !important;
+}
+
+.g_tabs_bar{
+    box-shadow: 0px 0px 15px #FFFFFF15;
+}
+
+.close_exts{
+    padding:15px !important;
+    margin: 15px !important;
+    right:0px;
+    position:absolute;
+}
+
+.sub-extension_div{
+    margin-left:15px !important;
+    margin-top:25px !important;
+}
+
+#top_bar_app > img {
+    content: url(GvLogo.svg);
+}
+
+#_content1{
+    padding-right:0px !important;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~
+      STYLES.CSS
+~~~~~~~~~~~~~~~~~~~~ */
+
+:root {
+    --primaryColor: #FAFAFE;
+    --secondaryColor: #FFFFFF;
+    --buttonHoverColor: #05050A10;
+    --accentColor: #05050A;
+    --white-black: #FFF;
+    --black-white: #05050A;
+    --editor-background-color: #FFF;
+    --editor-font-size: 13px;
+    --widget-color: #05050A20;
+    --buttons-roundness: 5px;
+    --dropmenu-background-color: #FFF;
+    --dropmenu-buttons-disabled-color: lightgray;
+    --dropmenu-span-color: #05050A30;
+    --titleBar-icons-color: #05050A;
+    --window-radius: 8px;
+    --notifications-background-color: #F5F5FA;
+    --notifications-window-radius: 5px;
+    --shadows: rgba(5, 5, 10, 0.2);
+    --scalation: 0.98;
+    --scroll-color: rgba(5, 5, 10, 0.15);
+    --scroll-color-hover: rgba(5, 5, 10, 0.3);
+}  
+
+*::-webkit-scrollbar {
+    transition: 0.3s;
+    width: 7px;
+    height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    transition: 0.1s;
+    border-radius: 5px;
+    width: 7px !important;
+    height: 7px !important;
+    background: var(--scroll-color);
+}
+
+#g_content>#g_explorer>#g_directories>#g_directory {
+    margin: 15px;
+}
+
+#g_content>#g_explorer>#g_directories>#g_directory > div:nth-child(1) {
+    margin: 0px 15px;
+    font-size: 16px;
+    white-space: nowrap;
+    display: flex;
+}
+
+#g_content>#g_explorer>#g_directories>#g_directory > div:nth-child(1) > p {
+    margin:10px 0px;
+}
+
+#content_app > .g_editors > .g_tabs_bar {
+    overflow-y:hidden;
+    box-shadow: 0px 1px 10px #05050A15;
+}
+
+#content_app .g_editors {
+    box-shadow: 0px 0px 20px #000005FF;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~
+    COMPONENTS.CSS
+~~~~~~~~~~~~~~~~~~~~ */
+
+*{
+    transition:0.3;
+}
+
+.body_window {
+    padding: 10px;
+    background: #0F0F15;
+    border:0px;
+    box-shadow: 0px 3px 25px #000005EE;
+}
+
+.desactivated.switch {
+    background: #FFFFFF15;
+}
+
+.desactivated.switch>div {
+    background: #FFFFFF40;
+    left: 3px;
+}
+
+.dialog_body {
+    box-shadow: 0px 3px 25px #00000020;
+}
+
+.dialog_body .buttons>button {
+    transition: 0.3s !important;
+    padding: 10px 20px;
+    background: #FFF;
+    border: 2px solid var(--primaryColor);
+    transform: translateY(0px);
+}
+
+.dialog_body .buttons>button:hover {
+    background: #FFF;
+    border: 2px solid #FFF;
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 15px #05050A15;
+}  
+
+.dialog_body .buttons >button.important {
+    box-shadow: 0px 1px 5px #05050A25;
+    border: 2px solid var(--accentColor);
+}
+
+.dialog_body .buttons >button.important:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 15px #05050A15;
+}  
+
+button.button1 {
+    transition: 0.3s;
+    padding: 12px 20px;
+    background:#05050A;
+    border: 2px solid var(--primaryColor);
+    transform:translateY(0px);
+}
+
+button.button1:hover {
+    transition: 0.3s;
+    background: #0A0A0E;
+    transform:translateY(-1px);
+    box-shadow: 0px 3px 15px #000005FF;
+    border:2px solid #0A0A0E;
+} 
+
+button.button1.red {
+    background: #E55;
+    color: white;
+}
+
+button.button1.red:hover {
+    background: #D44;
+    color: white;
+}
+
+.icon{
+    background:transparent;
+    border: 0px;
+    color:var(--white-black)
+}
+
+.body_window div.horizontal {
+    max-height: 80%;
+}
+
+.body_window .welcomeButtons {
+    bottom: 18px;
+    right: 10px;
+} 
+
+.extension_div{
+    transition: 0.3s;
+    transform: translateY(0px);
+    background: #05050A !important;
+    border: 2px solid var(--primaryColor);
+
+}
+
+.extension_div:hover{
+    transform: translateY(-3px);
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~
+     SETTINGS.CSS
+~~~~~~~~~~~~~~~~~~~~ */
+
+#settings_window_body{
+    padding: 15px;
+}
+  
+.navbar {
+    padding: 20px 0;
+    overflow: visible;
+}
+
+.navbar button {
+    padding: 11px 11px;
+    border-left: 5px solid #00000000;
+    margin: 5px 0px;
+}
+
+.navbar button:hover {
+    color: #FFF;
+    background: #05050A60;
+}
+
+.navbar button.active {
+    background: #000005;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 20px #000005FF;
+    border-left: 5px solid #FFF;
+}
+
+.navbar button.active:hover {
+    background: #000005;
+    box-shadow: 0px 2px 25px #000005FF;
+}
+
+.window_content {
+    margin: 20px 10px;
+    background: #05050A;
+    box-shadow: 0px 2px 30px#00000535;
+    border-radius: 10px;
+}
+
+#theme_list {
+    padding:10px;
+}
+
+.theme_div {
+    transition: 0.3s !important;
+    border-radius: 8px;
+    margin: 10px 10px;
+    transform: translateY(0px);
+    background: #05050A !important;
+    border: 2px solid var(--primaryColor);
+
+}
+
+.theme_div:hover{
+    transform: translateY(-3px);
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;
+}
+
+.theme_div.active {
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 10px #000005FF;
+    border-color: #0A0A0E;
+}
+
+.theme_div p {
+    color: #FFF;
+}
+
+#settings_content p{
+    margin: 15px 0px
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~
+       MENUS.CSS
+~~~~~~~~~~~~~~~~~~~~ */
+
+#top_bar_app > #dropmenus_app button.dropbtn {
+    padding: 0px 10px !important;
+    background: #0A0A0E;
+}
+
+.dropdown-content {
+    border-radius: 5px;
+}
+
+.dropdown-content>button:not(.dropbtn) {
+    color: #FFF;
+}
+
+.dropdown-content>button:hover:not(.dropbtn) {
+    color: #FFF;
+    background-color: #101015;
+}
+
+.dropdown-content>button:not(.dropbtn):hover div .abo {
+    stroke: var(--dropmenu-background-color);
+}
+
+.dropdown-content>button:not(.dropbtn):hover div .aba {
+    fill: var(--accentColor);
+}
+  
+.dropdown-content>button:not(.dropbtn):hover div .bbo {
+    stroke: var(--accentColor);
+}
+  
+.dropdown-content>button:not(.dropbtn):hover div .bba {
+    fill: #101015;
+}
+
+.icon .abo{
+    stroke: var(--dropmenu-background-color);
+}
+.icon .aba{
+    fill: var(--white-black);
+}
+
+.icon .bbo{
+    stroke: var(--white-black);
+}
+
+.icon .bba{
+    fill: var(--dropmenu-background-color);
+}
+
+.icon{
+    cursor: pointer;
+}
+  
+.icon:hover .abo{
+    stroke: var(--dropmenu-background-color);
+}
+
+.icon:hover .aba{
+    fill: var(--accentColor);
+}
+
+.icon:hover .bbo{
+    stroke: var(--accentColor);
+}
+
+.icon:hover .bba{
+    fill: var(--dropmenu-background-color);
+}
+
+span.line_space_menus {
+    background: #FFFFFF10;
+}
+
