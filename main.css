@@ -1,7 +1,7 @@
 #welcome_window_body{ background:#05050A; padding-right:5px;}
 
 #top_bar_app, #editor_resizer, #explorer_app, #content_app, #body{
-    background:#0A0A0F !important;
+    background:#0A0A0E !important;
 }
 
 .g_status_bar, .g_tabs_bar{
@@ -10,6 +10,10 @@
 
 .background_window{
     background: #35353A20
+}
+
+.g_tabs_bar .tabs.tab_part.selected{
+    background: #101015
 }
 
 .section-2{
@@ -73,7 +77,14 @@
     padding:15px !important;
     margin: 15px !important;
     right:0px;
+    border:0px;
     position:absolute;
+    border:0px !important;
+}
+
+.close_exts:hover{
+    box-shadow: 0px 2px 20px #000005DD;
+    background: #15151A !important;
 }
 
 .sub-extension_div{
@@ -165,7 +176,7 @@
 
 .body_window {
     padding: 10px;
-    background: #0F0F15;
+    background: #0F0F14;
     border:0px;
     box-shadow: 0px 3px 25px #000005EE;
 }
@@ -186,32 +197,37 @@
 .dialog_body .buttons>button {
     transition: 0.3s !important;
     padding: 10px 20px;
-    background: #FFF;
+    background: transparent;
     border: 2px solid var(--primaryColor);
     transform: translateY(0px);
+    color: #FFF;
 }
 
 .dialog_body .buttons>button:hover {
-    background: #FFF;
-    border: 2px solid #FFF;
     transform: translateY(-1px);
-    box-shadow: 0px 3px 15px #05050A15;
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;
 }  
 
 .dialog_body .buttons >button.important {
-    box-shadow: 0px 1px 5px #05050A25;
-    border: 2px solid var(--accentColor);
+    transform: translateY(0px);
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 10px #000005FF;
+    border-color: #0A0A0E;
+    color: #FFF;
 }
 
 .dialog_body .buttons >button.important:hover {
     transform: translateY(-1px);
-    box-shadow: 0px 3px 15px #05050A15;
-}  
+    background: #0A0A0E !important;
+    box-shadow: 0px 3px 20px #000005FF;
+    border-color: #0A0A0E;}  
 
 button.button1 {
     transition: 0.3s;
     padding: 12px 20px;
-    background:#05050A;
+    background: transparent;
     border: 2px solid var(--primaryColor);
     transform:translateY(0px);
 }

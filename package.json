@@ -1,11 +1,11 @@
 {
     "name":"ABDark",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "author":"AlexBesida",
     "description":"Description..? Coming Soon.. .",
     "folder":"ABDark",
     "type":"custom_theme",
-    "highlight":"highlight",
+    "highlight":"ABDarkHighlight",
     "css":["main.css"],
     "colors": {
         "primaryColor": "#15151A",
@@ -22,7 +22,7 @@
         "dropmenu-span-color": "FFFFFF30",
         "titleBar-icons-color":"#FFF",
         "window-radius":"8px",
-        "window-border-color":"#FFF",
+        "window-border-color":"#00000000",
         "notifications-background-color":"#25252A",
         "notifications-window-radius":"5px",
         "shadows":"rgba(0,0,5,0.26)",
