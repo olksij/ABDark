@@ -3,9 +3,9 @@
 ![MadeForGraviton](https://raw.githubusercontent.com/Graviton-Code-Editor/website/master/src/badges/made_for_graviton.svg?sanitize=true)
 
 ## Screenshots
-![FirstScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/ReadMe/SS1.png)
-![SecondScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/ReadMe/SS2.png)
-![ThirdScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/ReadMe/SS3.png)
+![FirstScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/master/ReadMe/SS1.png)
+![SecondScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/master/ReadMe/SS2.png)
+![ThirdScreenshot](https://raw.githubusercontent.com/AlexBesida/ABDark/master/ReadMe/SS3.png)
 
 ## How to get this theme?
 Theme is published to Graviton Market, so you are able to easily get it.
