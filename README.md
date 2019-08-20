@@ -15,6 +15,10 @@ Open Graviton Editor > Tools > Market, and then search for ABDark Theme
 Theme was tested, and adapted for Graviton 1.0.3 (190818)
 
 ## Change log
+### v1.0.3 - 20.08.19
+- Added Consolas Font to Code Editor
+- Changed Navigation in About Extension 
+
 ### v1.0.2 - 18.08.19
 - Fixed bugs with buttons in About dialog
 - Fixed Close Extension button

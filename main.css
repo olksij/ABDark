@@ -1,7 +1,51 @@
+@font-face { font-family: editor; src: url(fonts/Consolas.ttf); }
+
+@font-face { font-family: InterSB; src: url(fonts/Inter-SemiBold.woff2); }
+
 #welcome_window_body{ background:#05050A; padding-right:5px;}
 
 #top_bar_app, #editor_resizer, #explorer_app, #content_app, #body{
     background:#0A0A0E !important;
+}
+
+.ext_content navbar a{
+    transition:0.3s;
+    font-size: 15px;
+    font-family: InterSB;
+    padding: 9px 16px;
+    border-radius: 20px;
+    background:transparent;
+    color:#FFF;
+}
+
+.dropbtn{
+    font-family:_main_font !important;
+}
+
+.ext_content navbar a.active{
+    background: #FFF;
+    color: #05050A;
+    box-shadow: 0px 1px 10px #000005;
+}
+
+.ext_content navbar a.active:hover{
+    background: #FFF;
+    color: #05050A;
+    box-shadow: 0px 1px 20px #000005;
+}
+
+.ext_content navbar a:hover{
+    background: #101015;
+    box-shadow: 0px 1px 20px #000005;
+}
+
+.sub_extension_div .top div div button { margin-top:10px !important; margin-bottom:10px !important; }
+
+
+.sub_extension_div .top div div button:hover {
+    background: #121217;
+    border: 2px solid #121217;
+    box-shadow: 0px 1px 14px #05050A50;
 }
 
 .g_status_bar, .g_tabs_bar{
@@ -230,6 +274,8 @@ button.button1 {
     background: transparent;
     border: 2px solid var(--primaryColor);
     transform:translateY(0px);
+
+    font-size:14;
 }
 
 button.button1:hover {
