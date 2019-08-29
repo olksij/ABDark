@@ -12,9 +12,12 @@ Theme is published to Graviton Market, so you are able to easily get it.
 Open Graviton Editor > Tools > Market, and then search for ABDark Theme
 
 ## About
-Theme was tested, and adapted for Graviton 1.0.3 (190818)
+Theme was tested, and adapted for Graviton 1.1.0 (190827)
 
 ## Change log
+### v1.0.4 - 29.08.19
+- Fixed Highlight
+
 ### v1.0.3 - 20.08.19
 - Added Consolas Font to Code Editor
 - Changed Navigation in About Extension 
