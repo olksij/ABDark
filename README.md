@@ -15,7 +15,7 @@ Open Graviton Editor > Tools > Market, and then search for ABDark Theme
 Theme was tested, and adapted for Graviton 1.1.0 (190827)
 
 ## Change log
-### v1.0.4 - 29.08.19
+### v1.0.4 & v1.0.5 - 29.08.19
 - Fixed Highlight
 
 ### v1.0.3 - 20.08.19
